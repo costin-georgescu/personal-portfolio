@@ -1,5 +1,7 @@
 # Dependency directories
 node_modules/
+# Exception for bootstrap CSS
+!node_modules/bootstrap/dist/css/bootstrap.min.css
 
 # Parcel build directory
 dist/
