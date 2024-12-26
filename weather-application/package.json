@@ -1,0 +1,25 @@
+ {
+  "name": "weather-application",
+  "version": "1.0.0",
+  "description": "A simple, material design weather application using OpenWeatherMap API and Chart.js.",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.7",
+    "parcel": "^2.13.3"
+  },
+  "type": "module",
+  "targets": {
+    "main": {
+      "source": "index.html"
+    }
+  }
+}
