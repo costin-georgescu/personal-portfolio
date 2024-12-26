@@ -1,7 +1,9 @@
 # Dependency directories
 node_modules/
-# Exception for bootstrap CSS
-!node_modules/bootstrap/dist/css/bootstrap.min.css
+
+# Exceptions for bootstrap CSS and JS
+!weather-application/node_modules/bootstrap/dist/css/bootstrap.min.css
+!weather-application/node_modules/bootstrap/dist/js/bootstrap.min.js
 
 # Parcel build directory
 dist/
@@ -31,4 +33,3 @@ Thumbs.db
 
 *.min.css
 *.min.js
-
