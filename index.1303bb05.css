@@ -1,0 +1,153 @@
+:root {
+  --primary-color: #4285f4;
+  --text-color: #333;
+  --background-color: #f8f9fa;
+  --card-background: #fff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  display: flex;
+}
+
+.container {
+  background-color: var(--card-background);
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  box-shadow: 0 2px 10px #0000001a;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 24px;
+}
+
+.search-container label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  display: block;
+}
+
+.search-container input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.current-weather {
+  margin-bottom: 32px;
+}
+
+.datetime {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.weather-main {
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.weather-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.condition {
+  font-size: 24px;
+}
+
+.weather-details {
+  gap: 24px;
+  display: flex;
+}
+
+.detail {
+  flex-direction: column;
+  display: flex;
+}
+
+.detail .label {
+  color: #666;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.detail .value {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.temperature-chart {
+  height: 200px;
+  margin: 32px 0;
+  position: relative;
+}
+
+.temperature-chart h3 {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.forecast {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  display: flex;
+}
+
+.forecast-day {
+  border-radius: 8px;
+  flex: 1;
+  padding: 16px;
+}
+
+.forecast-day.today {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.forecast-day .day {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.forecast-day img {
+  width: 32px;
+  height: 32px;
+  margin: 8px 0;
+}
+
+.forecast-day .humidity {
+  color: #666;
+  font-size: 14px;
+}
+
+.forecast-day.today .humidity {
+  color: #fffc;
+}
+/*# sourceMappingURL=index.1303bb05.css.map */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="/index.ab0485ab.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.1303bb05.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <label for="cityInput">Your city</label>
+            <input type="text" id="cityInput" placeholder="Enter city name" value="London" class="form-control">
+        </div>
+
+        <div class="current-weather">
+            <div class="datetime">5:05 PM, Mon, Nov 23, 2020</div>
+            
+            <div class="weather-main">
+                <div class="weather-icon">
+                    <img src="/cloudy.b5c09f46.svg" alt="Weather Icon">
+                </div>
+                <div class="temperature">72°F</div>
+                <div class="condition">Cloudy</div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail">
+                    <span class="label">Humidity</span>
+                    <span class="value">45%</span>
+                </div>
+                <div class="detail">
+                    <span class="label">Wind speed</span>
+                    <span class="value">19.2 km/j</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="temperature-chart">
+            <h3>Temperature</h3>
+            <canvas id="temperatureChart"></canvas>
+        </div>
+
+        <div class="forecast">
+            <div class="forecast-day today">
+                <div class="day">Today</div>
+                <img src="/cloudy.b5c09f46.svg" alt="Weather Icon">
+                <div class="humidity">Humidity<br>30%</div>
+            </div>
+            <div class="forecast-day">
+                <div class="day">Nov 24</div>
+                <img src="/cloudy.b5c09f46.svg" alt="Weather Icon">
+                <div class="humidity">Humidity<br>36%</div>
+            </div>
+            <div class="forecast-day">
+                <div class="day">Nov 25</div>
+                <img src="/sunny.f9fae3c6.svg" alt="Weather Icon">
+                <div class="humidity">Humidity<br>20%</div>
+            </div>
+            <div class="forecast-day">
+                <div class="day">Nov 26</div>
+                <img src="/sunny.f9fae3c6.svg" alt="Weather Icon">
+                <div class="humidity">Humidity<br>15%</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.cf23a97f.js" defer=""></script>
+    <script src="/index.5baa4167.js" defer=""></script>
+    <script src="/index.1eb86c06.js" defer=""></script>
+</body>
+</html>
